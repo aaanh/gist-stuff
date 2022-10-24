@@ -8,8 +8,8 @@ addEventListener("fetch", (event) => {
 
 const invalid = `<DOCTYPE html>
 <body>
-  <h1>Invalid Request</h1>
-  <p>Code: 404</p>
+  <h1>Invalid or Bad Request</h1>
+  <p>Code: 404, 400</p>
 </body>
 </html>
 `
@@ -34,7 +34,8 @@ async function handleRequest(request) {
     return new Response(invalid, {
       headers: {
         'content-type': 'text/html;charset=UTF-8'
-      }
+      },
+      status: 400
     })
   }
   else {
