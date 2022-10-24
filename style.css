@@ -6,3 +6,17 @@ h1 {
   font-size: 16pt;
   font-weight: bold;
 }
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 2pt
+}
+
+a:hover {
+  color: #123fde
+}
+
+#get-raw-now:hover {
+  cursor: pointer;
+  background-color: #bbbbbb;
+}

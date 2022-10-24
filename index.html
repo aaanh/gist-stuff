@@ -10,14 +10,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="flex flex-col items-center">
-    <div class="container w-full">
+  <div class="flex flex-col items-center justify-center h-screen w-screen">
+    <div class="">
       <h1 class="">Get Raw Gists</h1>
       <blockquote>It simply works by appending <code>/raw</code> into the URL and return the content.</blockquote>
       <form action="https://get-gist-raw.aaanhoverlord.workers.dev/" method="GET">
         <input class="border rounded w-64 p-2" type="text" name="gist_url" />
-        <input class="p-2" type="submit" value="GET RAW">
+        <input id="get-raw-now" class="p-2" type="submit" value="GET RAW NOW">
       </form>
+    <div class="mt-8">
+      By <a href="https://aaanh.ca">Anh H Nguyen</a> | <a href="https://github.com/aaanh/gist-stuff">Github</a>
+    </div>
     </div>
   </div>
 </body>
