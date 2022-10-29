@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Augmenting Gists</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
-  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark:text-white">
-  <div class="dark:text-white flex flex-col items-center justify-center h-screen w-screen">
+<body>
+  <div class="dark:text-white flex flex-col items-center justify-center h-screen w-screen p-2">
     <div class="">
       <h1 class="text-green-500 dark:text-green-500">Get Raw Gists</h1>
       <blockquote>It simply works by appending <code>/raw</code> into the URL and return the content.</blockquote>
@@ -22,7 +21,10 @@
       By <a href="https://aaanh.ca">Anh H Nguyen</a> | <a href="https://github.com/aaanh/gist-stuff">Github</a>
     </div>
     <div>
-
+      
+      <h4 class="text-lg font-bold">Try with this gist URL</h4>
+      <pre><p>https://gist.github.com/aaanh/2d8b322170ec9fa3c2273e7b92b48327</p></pre>
+      <br/>
       <h4 class="text-lg font-bold">What is a &apos;gist&apos;?</h4>
       <p>Gist is a code or text snippet that is hosted on Github. <a href="https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists">Docs</a> here.</p>
       <p>It functions similarly to <a href="https://pastebin.com">pastebin.</a></p>
@@ -30,4 +32,5 @@
     </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>

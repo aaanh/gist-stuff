@@ -1,5 +1,5 @@
 code {
-  color: #123fde
+  color: #123fde;
 }
 
 h1 {
@@ -19,4 +19,38 @@ a:hover {
 #get-raw-now:hover {
   cursor: pointer;
   background-color: #bbbbbb;
+}
+
+button{
+  position:absolute;
+  top:0;
+  right:0;
+  font-size:.9rem;
+  padding:.15rem;
+  background-color: white;
+  color: #1e1e1e;
+  border:ridge 1px black;
+  border-radius:5px;
+
+}
+
+pre {
+  position: relative;
+  display: block;
+  width: 80vw;
+  overflow-wrap: break-all;
+  word-wrap: break-all;
+}
+
+code {
+  width: 80vw;
+  overflow-wrap: break-all;
+  word-wrap: break-all;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color: rgb(34 197 94);;
+  color: white;
+  border: transparent;
 }
